@@ -12,6 +12,6 @@ process.stdin.on('data', (data) => {
   }else if(cmd === "ls"){
     outputLs();
   }
-  process.stdout.write('You typed: ' + cmd);
-  process.stdout.write('\nprompt > ');
+  //process.stdout.write('You typed: ' + cmd);
+  //process.stdout.write('\nprompt > ');
 });
